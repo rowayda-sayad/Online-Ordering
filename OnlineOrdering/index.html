@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <img src="images/StarbucksLogo.png" alt="Logo of Starbucks" id="logo">
+    <h1>Starbucks</h1>
+    <div id="holder">
+
+    </div>
+
+    <div class="order">
+        <div>
+            <form action="#">
+                <label for="drinks">Drink:</label>
+
+                <select name="drinks" id="drinks">
+                <option value="Caffe Latte">Caffe Latte</option>
+                <option value="White Chocolate Mocha">White Chocolate Mocha</option>
+                <option value="Iced Caramel Macchiato">Iced Caramel Macchiato</option>
+                <option value="Caffe Americano">Caffe American</option>
+                <option value="Classic Hot Chocolate">Classic Hot Chocolate</option>
+                <option value="Caramel Frappuccino">Caramel Frappuccino</option>
+                <option value="Chai Tea Latte">Chai Tea Latte</option>
+            </select>
+
+            </form>
+        </div>
+
+
+        <div>
+            <label for="NumberofCups">Number of cups:*</label>
+            <input type="number" id="cupsnum" required>
+        </div>
+
+        <div>
+            <button id="add">Add item</button>
+        </div>
+
+    </div>
+
+
+
+    <div id="table">
+        <table id="orderSum">
+            <tr>
+                <th>Item id</th>
+                <th>Drink</th>
+                <th>Num of cups</th>
+            </tr>
+
+        </table>
+
+
+    </div>
+
+
+
+    <div class="inputs">
+        <form action="#">
+            <p><input type="text" id="itemId" placeholder="item id">
+                <input type="button" value="Remove item" id="removeBtn"></p>
+            <p><input type="text" id="itemId2" placeholder="item id">
+                <input type="text" id="cupsNb" placeholder="num of cups">
+                <input type="button" value="Update item" id="updateBtn"></p>
+            <p><input type="button" value="Save items" id="saveBtn"></p>
+        </form>
+    </div>
+
+</body>
+
+</html>

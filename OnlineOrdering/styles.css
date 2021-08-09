@@ -1,0 +1,53 @@
+html {
+    margin-top: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 2em;
+    margin: 0;
+}
+
+input[type=button],
+button {
+    width: 150px;
+}
+
+th,
+tr {
+    background-color: #CACFD2;
+}
+
+.order {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+#holder {
+    width: 200px;
+    height: 200px;
+    float: right;
+    border: 1px solid black;
+}
+
+#cupsnum {
+    width: 40px;
+}
+
+#table {
+    height: 250px;
+    width: fit-content;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
